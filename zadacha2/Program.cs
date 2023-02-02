@@ -8,7 +8,7 @@ int InputDot(string dot)
 {
     System.Console.WriteLine(dot);
     return Convert.ToInt32(Console.ReadLine());
-}               
+}
 
 int x1 = InputDot("Введите координату X первой точки");
 int y1 = InputDot("Введите координату Y первой точки");
@@ -17,4 +17,4 @@ int x2 = InputDot("Введите координату X второй точки
 int y2 = InputDot("Введите координату Y второй точки");
 int z2 = InputDot("Введите координату Z второй точки");
 
-System.Console.WriteLine(Math.Round(Math.Pow(Math.Pow((x2-x1),2) + Math.Pow((y2-y1),2) + Math.Pow((z2-z1),2),0.5),2));
+System.Console.WriteLine(Math.Round(Math.Pow(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2), 0.5), 2));
