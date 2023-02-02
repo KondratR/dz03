@@ -8,11 +8,11 @@
 System.Console.WriteLine("Введите пятизначное число");
 int N = Convert.ToInt32(Console.ReadLine());
 
-if (N<10000 || N>99999)
+if (N < 10000 || N > 99999)
 {
     System.Console.WriteLine("Введено не пятизначное число");
 }
-else if ((N%10)==(N/1000/10) && (N%100/10)==(N/1000%10))
+else if ((N % 10) == (N / 1000 / 10) && (N % 100 / 10) == (N / 1000 % 10))
 {
     System.Console.WriteLine("Число является палиндромом");
 }
